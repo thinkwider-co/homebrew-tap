@@ -7,21 +7,20 @@
 ### macOS (Homebrew)
 Install the Thinkwider tap and the tool:
 ```bash
-brew install thinkwider-co/tap/docanax
+brew install thinkwider-co/homebrew-tap/docanax
 docanax --help
 
 
-Windows (WinGet)
+Windows (MSIX installer)
 
-PowerShell
-winget install docanax
 docanax --help
 Manual Usage
 
 If running the binary directly:
 
 Bash
-./docanax --input "file.pdf" --output "data.json"
+./docanax filename pagebegin
+
 🛠 Features
 PDF Extraction: Fast, native C++ extraction.
 
@@ -30,6 +29,6 @@ Office Support: Handles .docx and .xlsx formats.
 Standalone: No heavy dependencies or runtimes required.
 
 📄 License
-Copyright © 2026 Thinkwider CO., LTD. Author: Chun Ngok Lau (Philip)
+Copyright © 2026 Thinkwider CO., LTD. Author: Chun Ngok (Philip) Lau 
 
 All Rights Reserved.
