@@ -20,11 +20,13 @@ Install the Thinkwider tap and the tool:
 ```bash
 brew install thinkwider-co/homebrew-tap/docanax
 ./docanax --help
-
+```
 
 ### Windows (MSIX installer)
 ```cmd (console)
 docanax --help
+```
+
 Manual Usage
 
 If running the binary directly:
